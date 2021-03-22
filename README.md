@@ -15,11 +15,11 @@ $ git clone https://github.com/JosephCrespin/RoleChanger.git
 
 ### Requirements 📋
 
--you need a code editor either VScode, Sublime Code, etc.
--Laravel 8 / Jetstream
--PHP 7.4
--composer 1.10.15
--Docker
+-  you need a code editor either VScode, Sublime Code, etc.
+-  Laravel 8 / Jetstream
+-  PHP 7.4
+-  composer 1.10.15
+-  Docker
 
 ## Built With 🛠️
 
