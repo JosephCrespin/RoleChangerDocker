@@ -27,13 +27,13 @@ $ git clone https://github.com/JosephCrespin/RoleChanger.git
 ## Demo 
 
 - Here we see how the administrator can access the dashboar:
-- the administrator can delete, edit, and create roles with many permissions within.
 ![DemoOne](DemoOne.gif)
-
 
 - the administrator can delete, edit, and create roles with many permissions within.
 ![DemoTwo](DemoTwo.gif)
 
+- Now the administrator can pass the admin role and the other roles created to a user, thus passing him privileges and permissions.
+![DemoThree](DemoThree.gif)
 
 ## Built With 🛠️
 
