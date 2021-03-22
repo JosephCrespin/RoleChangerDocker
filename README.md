@@ -13,8 +13,8 @@ You will only have to download the project or clone it to be able to edit the co
 ```
 $ git clone https://github.com/JosephCrespin/RoleChanger.git
   
- 
- Then you have to change your env. to:
+ To run it in DOCKER you have to:
+     change your env. to:
  
  DB_DATABASE=authentication
  DB_USERNAME=none
