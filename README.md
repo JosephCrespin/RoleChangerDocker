@@ -13,10 +13,22 @@ You will only have to download the project or clone it to be able to edit the co
 ```
 $ git clone https://github.com/JosephCrespin/RoleChanger.git
   
-  ./vendor/bin/sail up
+ 
+ Then you have to change your env. to:
+ 
+ DB_DATABASE=authentication
+ DB_USERNAME=none
+ DB_PASSWORD=none
+ 
+ now you can run the migration with:
+ 
+./vendor/bin/sail artisan migrate --seed
   
-  php artisan migrate:fresh --seed
 ```
+
+Tip✨
+you can make an alias to save a few letters:
+alias sail="./vendor/bin/sail"
      
 
 
