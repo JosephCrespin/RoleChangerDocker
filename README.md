@@ -1,5 +1,5 @@
 
-# RoleChanger
+# RoleChanger🔒
 
 In this project I design a dashboard where an administrator can create, edit, delete and assign roles to any user.
 
@@ -25,7 +25,8 @@ $ git clone https://github.com/JosephCrespin/RoleChanger.git
 -  Docker
 
 ## Demo 
-
+Registration and login are included with laravel Jetstream.
+Here we see how the administrator can access the dashboar:
 ![DemoOne](DemoOne.gif)
 
 
