@@ -6,7 +6,7 @@ In this project I design a dashboard where an administrator can create, edit, de
 just by logging in as an administrator you will be able to see the dashboard, users without roles and permissions will not be able to access or assign roles.👽
 
 
-## Starting🚀
+## Starting🐱‍🐉
 
 You will only have to download the project or clone it to be able to edit the code in case you want to modify it, take it, it is totally free
 
