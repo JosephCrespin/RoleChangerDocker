@@ -11,7 +11,10 @@ You will only have to download the project or clone it to be able to edit the co
 
 ```
 $ git clone https://github.com/JosephCrespin/RoleChanger.git
+  and ./vendor/bin/sail up
 ```
+     
+
 
 ### Requirements 📋
 
