@@ -25,6 +25,11 @@ $ git clone https://github.com/JosephCrespin/RoleChanger.git
 ./vendor/bin/sail artisan migrate --seed
   
 ```
+- Admin role
+to enter as admin, you just have to check:
+```
+UserSeeder.php
+```
 
 - Tip✨
 you can make an alias to save a few letters:
