@@ -23,7 +23,7 @@ $ git clone https://github.com/JosephCrespin/RoleChanger.git
 
 ## Demo 
 
-![demoOne](DemoOne.gif)
+![demoOne](demoOne.gif)
 
 
 ## Built With 🛠️
