@@ -26,10 +26,12 @@ $ git clone https://github.com/JosephCrespin/RoleChanger.git
   
 ```
 
-Tip✨
+- Tip✨
 you can make an alias to save a few letters:
+
+```
 alias sail="./vendor/bin/sail"
-     
+```
 
 
 ### Requirements 📋
