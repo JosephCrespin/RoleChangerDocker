@@ -7,6 +7,7 @@
 @stop
 
 @section('content')
+
 <div class="card">
     <div class="card-header">
         <a href="{{route('admin.roles.create')}}">Crear Rol</a>
@@ -23,17 +24,17 @@
             </thead>
 
             <tbody>
-                    @forelse($role as $roles)
+                @forelse($role as $roles)
                 <tr>
                     <td>{{$roles->id}}</td>
                     <td>{{$roles->name}}</td>
 
                     <td>
-                        <a class="btn btn-secondary" href="{{route('admin.role.edit',$roles)}}">Editar</a>
+                        <a class="btn btn-secondary" href="{{route('admin.roles.edit',$roles)}}">Editar</a>
                     </td>
 
                     <td>
-                        <form action="{{route('admin.role.destroy',$roles)}}" method="POST">
+                        <form action="{{route('admin.roles.destroy',$roles)}}" method="POST">
                             @method('delete')
                             @csrf
                             <button class="btn btn-danger" type="submit">Eliminar</button>
@@ -41,24 +42,14 @@
                     </td>
                 </tr>
                 @empty
-                        <tr>
-                            <td colspan="4">Ningun rol registrado</td>
-                        </tr>
+                <tr>
+                    <td colspan="4">Ningun rol registrado</td>
+                </tr>
                 @endforelse
 
             </tbody>
-
-
         </table>
-
-
-
-
     </div>
-
-
-
-
 </div>
 @stop
 
