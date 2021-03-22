@@ -7,9 +7,9 @@
 @stop
 
 @section('content')
-@livewire('admin.users-index')
+    @livewire('admin-users')
 @stop
-@livewireScripts
+    
 @section('css')
 <link rel="stylesheet" href="/css/admin_custom.css">
 @stop

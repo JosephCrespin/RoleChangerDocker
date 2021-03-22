@@ -3,10 +3,17 @@
 @section('title', 'RK management')
 
 @section('content_header')
-<h1>Dashboard</h1>
+<h1>Lista de Roles</h1>
 @stop
 
 @section('content')
+
+@if (session('info'))
+    
+        <div class="alert alert-primary" role="alert">
+            <strong>¡Genial!</strong> {{session('info')}}
+        </div>
+@endif
 
 <div class="card">
     <div class="card-header">
@@ -29,11 +36,11 @@
                     <td>{{$roles->id}}</td>
                     <td>{{$roles->name}}</td>
 
-                    <td>
+                    <td width="10px">
                         <a class="btn btn-secondary" href="{{route('admin.roles.edit',$roles)}}">Editar</a>
                     </td>
 
-                    <td>
+                    <td widht="10px">
                         <form action="{{route('admin.roles.destroy',$roles)}}" method="POST">
                             @method('delete')
                             @csrf
