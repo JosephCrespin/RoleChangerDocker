@@ -26,7 +26,6 @@ $ git clone https://github.com/JosephCrespin/RoleChanger.git
 ![demoOne](demoOne.gif)
 
 
-
 ## Built With 🛠️
 
 * [PHP/LARAVEL](https://laravel.com) 
