@@ -100,9 +100,12 @@
                                 {{ __('Profile') }}
                             </x-jet-dropdown-link>
 
+                            @can('ver usuarios')
+
                             <x-jet-dropdown-link href="{{ route('admin.users.index') }}">
                                 admin
                             </x-jet-dropdown-link>
+                            @endcan
 
 
 

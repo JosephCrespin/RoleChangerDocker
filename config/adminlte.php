@@ -240,13 +240,15 @@ return [
             'text' => 'Usuarios',
             'route'  => 'admin.users.index',
             'icon' => 'fas fa-fw fa-users',
-            'active'  => ['admin/users*']
+            'active'  => ['admin/users*'],
+            'can' => 'ver usuarios',
         ],
         [
             'text'    => 'Lista de Roles',
             'route'   => 'admin.roles.index',
             'icon'    => 'fas fa-fw fa-users-cog',
-            'active'  => ['admin/roles*']
+            'active'  => ['admin/roles*'],
+            'can' =>'ver usuarios', 'editar usuarios', 'agregar roles', 'eliminar roles', 'editar roles'
             
         ],
         
