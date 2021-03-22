@@ -25,9 +25,14 @@ $ git clone https://github.com/JosephCrespin/RoleChanger.git
 -  Docker
 
 ## Demo 
-Registration and login are included with laravel Jetstream.
-Here we see how the administrator can access the dashboar:
+- the administrator can delete, edit, and create roles with many permissions within.
 ![DemoOne](DemoOne.gif)
+
+
+- .
+- Here we see how the administrator can access the dashboar:
+
+![DemoTwo](DemoTwo.gif)
 
 
 ## Built With 🛠️
